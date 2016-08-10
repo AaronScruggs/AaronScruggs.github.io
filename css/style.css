@@ -20,7 +20,7 @@ body a{
 }
 .header{
 	width: 100%;
-	background: url(../images/banner_bg.jpg) no-repeat;
+	background: url(../images/running_man.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -28,6 +28,13 @@ body a{
 	background-position: center;
 	background-size: 100% 100%;
 }
+.logo_icon {
+	height:140px;
+	width: 140px;
+	margin: 20px;
+	
+}
+
 .header-top{
 	background: rgba(73, 84, 91, 0.84);
 	padding: 3% 0;
@@ -147,7 +154,7 @@ body a{
 	color: #FFF;
 	font-size:2.7em;
 	text-transform: uppercase;
-	background: #4B565D;
+	//background: #4B565D;
 	padding: 10px;
 	width:48%;
 	margin: 0 auto 2% auto;
@@ -164,8 +171,9 @@ body a{
 }
 /*--services--*/
 .services{
-	background:#4bcaff;
-	padding:6% 0;
+	/*background:#4bcaff;*/
+	background: #EBEBEB;
+	padding:4% 0;
 }
 i.coffee{
 	background: url(../images/img-sprite.png)no-repeat -3px -7px;
@@ -504,7 +512,8 @@ p.m_9{
 }
 .join{
 	width: 100%;
-	background: url(../images/join_bg.jpg) no-repeat;
+	//background: url(../images/carforest.jpg) no-repeat;
+	background: #919090;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
