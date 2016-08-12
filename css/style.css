@@ -18,6 +18,22 @@ body a{
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
+
+.overlay {
+    height: 140px;
+    width: 140px;
+    opacity:0.75;
+    background: #eee;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+.col-md-3:hover .overlay {
+    /*display: inline;*/
+    background: #eee;
+    opacity:0.75;
+}
+
 .header{
 	width: 100%;
 	background: url(../images/running_man.jpg) no-repeat;
@@ -1027,6 +1043,7 @@ i.blog_icon5 {
  .top_grid{
  	margin-bottom:20px;
  	text-align:center;
+
  }
  .default_top{
  	margin-bottom:20px;
